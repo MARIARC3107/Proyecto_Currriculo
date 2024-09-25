@@ -1,0 +1,874 @@
+[
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.AProfesionalsController",
+    "Method": "GetAProfesional",
+    "RelativePath": "api/AProfesionals",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Proyecto_curriculo.Models.AProfesional, Proyecto curriculo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.AProfesionalsController",
+    "Method": "PostAProfesional",
+    "RelativePath": "api/AProfesionals",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "aProfesional",
+        "Type": "Proyecto_curriculo.Models.AProfesional",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Proyecto_curriculo.Models.AProfesional",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.AProfesionalsController",
+    "Method": "GetAProfesional",
+    "RelativePath": "api/AProfesionals/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Proyecto_curriculo.Models.AProfesional",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.AProfesionalsController",
+    "Method": "PutAProfesional",
+    "RelativePath": "api/AProfesionals/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "aProfesional",
+        "Type": "Proyecto_curriculo.Models.AProfesional",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.AProfesionalsController",
+    "Method": "DeleteAProfesional",
+    "RelativePath": "api/AProfesionals/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.ATProfesionalesController",
+    "Method": "GetATProfesionales",
+    "RelativePath": "api/ATProfesionales",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Proyecto_curriculo.Models.ATProfesionales, Proyecto curriculo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.ATProfesionalesController",
+    "Method": "PostATProfesionales",
+    "RelativePath": "api/ATProfesionales",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "aTProfesionales",
+        "Type": "Proyecto_curriculo.Models.ATProfesionales",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Proyecto_curriculo.Models.ATProfesionales",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.ATProfesionalesController",
+    "Method": "GetATProfesionales",
+    "RelativePath": "api/ATProfesionales/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Proyecto_curriculo.Models.ATProfesionales",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.ATProfesionalesController",
+    "Method": "PutATProfesionales",
+    "RelativePath": "api/ATProfesionales/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "aTProfesionales",
+        "Type": "Proyecto_curriculo.Models.ATProfesionales",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.ATProfesionalesController",
+    "Method": "DeleteATProfesionales",
+    "RelativePath": "api/ATProfesionales/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.CompetenciasController",
+    "Method": "GetCompetencias",
+    "RelativePath": "api/Competencias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Proyecto_curriculo.Models.Competencias, Proyecto curriculo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.CompetenciasController",
+    "Method": "PostCompetencias",
+    "RelativePath": "api/Competencias",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "competencias",
+        "Type": "Proyecto_curriculo.Models.Competencias",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Proyecto_curriculo.Models.Competencias",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.CompetenciasController",
+    "Method": "GetCompetencias",
+    "RelativePath": "api/Competencias/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Proyecto_curriculo.Models.Competencias",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.CompetenciasController",
+    "Method": "PutCompetencias",
+    "RelativePath": "api/Competencias/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "competencias",
+        "Type": "Proyecto_curriculo.Models.Competencias",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.CompetenciasController",
+    "Method": "DeleteCompetencias",
+    "RelativePath": "api/Competencias/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.PActuacionsController",
+    "Method": "GetPActuacion",
+    "RelativePath": "api/PActuacions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Proyecto_curriculo.Models.PActuacion, Proyecto curriculo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.PActuacionsController",
+    "Method": "PostPActuacion",
+    "RelativePath": "api/PActuacions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pActuacion",
+        "Type": "Proyecto_curriculo.Models.PActuacion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Proyecto_curriculo.Models.PActuacion",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.PActuacionsController",
+    "Method": "GetPActuacion",
+    "RelativePath": "api/PActuacions/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Proyecto_curriculo.Models.PActuacion",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.PActuacionsController",
+    "Method": "PutPActuacion",
+    "RelativePath": "api/PActuacions/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "pActuacion",
+        "Type": "Proyecto_curriculo.Models.PActuacion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.PActuacionsController",
+    "Method": "DeletePActuacion",
+    "RelativePath": "api/PActuacions/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.perfil_egresoController",
+    "Method": "Getperfil_egreso",
+    "RelativePath": "api/perfil_egreso",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Proyecto_curriculo.Models.perfil_egreso, Proyecto curriculo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.perfil_egresoController",
+    "Method": "Postperfil_egreso",
+    "RelativePath": "api/perfil_egreso",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "perfil_egreso",
+        "Type": "Proyecto_curriculo.Models.perfil_egreso",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Proyecto_curriculo.Models.perfil_egreso",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.perfil_egresoController",
+    "Method": "Getperfil_egreso",
+    "RelativePath": "api/perfil_egreso/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Proyecto_curriculo.Models.perfil_egreso",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.perfil_egresoController",
+    "Method": "Putperfil_egreso",
+    "RelativePath": "api/perfil_egreso/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "perfil_egreso",
+        "Type": "Proyecto_curriculo.Models.perfil_egreso",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.perfil_egresoController",
+    "Method": "Deleteperfil_egreso",
+    "RelativePath": "api/perfil_egreso/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.Res_aprendizajeController",
+    "Method": "GetRes_aprendizaje",
+    "RelativePath": "api/Res_aprendizaje",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Proyecto_curriculo.Models.Res_aprendizaje, Proyecto curriculo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.Res_aprendizajeController",
+    "Method": "PostRes_aprendizaje",
+    "RelativePath": "api/Res_aprendizaje",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "res_aprendizaje",
+        "Type": "Proyecto_curriculo.Models.Res_aprendizaje",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Proyecto_curriculo.Models.Res_aprendizaje",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.Res_aprendizajeController",
+    "Method": "GetRes_aprendizaje",
+    "RelativePath": "api/Res_aprendizaje/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Proyecto_curriculo.Models.Res_aprendizaje",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.Res_aprendizajeController",
+    "Method": "PutRes_aprendizaje",
+    "RelativePath": "api/Res_aprendizaje/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "res_aprendizaje",
+        "Type": "Proyecto_curriculo.Models.Res_aprendizaje",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.Res_aprendizajeController",
+    "Method": "DeleteRes_aprendizaje",
+    "RelativePath": "api/Res_aprendizaje/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.SabersController",
+    "Method": "GetSaber",
+    "RelativePath": "api/Sabers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Proyecto_curriculo.Models.Saber, Proyecto curriculo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.SabersController",
+    "Method": "PostSaber",
+    "RelativePath": "api/Sabers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "saber",
+        "Type": "Proyecto_curriculo.Models.Saber",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Proyecto_curriculo.Models.Saber",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.SabersController",
+    "Method": "GetSaber",
+    "RelativePath": "api/Sabers/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Proyecto_curriculo.Models.Saber",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.SabersController",
+    "Method": "PutSaber",
+    "RelativePath": "api/Sabers/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "saber",
+        "Type": "Proyecto_curriculo.Models.Saber",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.SabersController",
+    "Method": "DeleteSaber",
+    "RelativePath": "api/Sabers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.VAgregadoesController",
+    "Method": "GetVAgregado",
+    "RelativePath": "api/VAgregadoes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Proyecto_curriculo.Models.VAgregado, Proyecto curriculo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.VAgregadoesController",
+    "Method": "PostVAgregado",
+    "RelativePath": "api/VAgregadoes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vAgregado",
+        "Type": "Proyecto_curriculo.Models.VAgregado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Proyecto_curriculo.Models.VAgregado",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.VAgregadoesController",
+    "Method": "GetVAgregado",
+    "RelativePath": "api/VAgregadoes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Proyecto_curriculo.Models.VAgregado",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.VAgregadoesController",
+    "Method": "PutVAgregado",
+    "RelativePath": "api/VAgregadoes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "vAgregado",
+        "Type": "Proyecto_curriculo.Models.VAgregado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Proyecto_curriculo.Controllers.VAgregadoesController",
+    "Method": "DeleteVAgregado",
+    "RelativePath": "api/VAgregadoes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
